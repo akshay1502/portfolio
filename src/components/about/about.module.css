@@ -1,0 +1,36 @@
+.about {
+  padding: 60px;
+  display: flex;
+}
+.aboutPart1,
+.aboutPart2 {
+  flex: 1 1 0;
+}
+.aboutPart1 {
+  display: flex;
+  justify-content: center;
+}
+.aboutPart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.para {
+  font-size: 20px;
+  line-height: 28px;
+}
+.heading {
+  border-left: 4px solid yellow;
+  padding-left: 8px;
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+.aboutImageContainer {
+  width: 350px;
+  height: 450px;
+  overflow: hidden;
+}
+.aboutImageContainer > img {
+  width: 100%;
+  height: 100%;
+}

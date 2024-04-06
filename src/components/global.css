@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #f8f8ff;
+  --black: #222222;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Quicksand";
+  background-color: var(--white);
+  color: var(--black);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    /* padding: 0 60px; */
+  }
+}
+.instagram {
+  transition: fill 0.2s ease;
+}
+.instagram:hover {
+  fill: #e4405f;
+}
+
+.github {
+  transition: fill 0.2s ease;
+}
+.github:hover {
+  fill: #181717;
+}
+
+.linkedin {
+  transition: fill 0.2s ease;
+}
+.linkedin:hover {
+  fill: #0077b5;
+}
+
+.twitter {
+  transition: fill 0.2s ease;
+}
+.twitter:hover {
+  fill: #1da1f2;
+}
+
+.medium {
+  transition: fill 0.2s ease;
+}
+.medium:hover {
+  fill: #12100e;
+}

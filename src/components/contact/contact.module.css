@@ -1,0 +1,55 @@
+.contact {
+  padding: 60px 60px 40px 60px;
+}
+.socialLinks {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.contactFormContainer {
+  margin-bottom: 40px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40%;
+}
+.email,
+.textarea {
+  margin-bottom: 20px;
+}
+
+.email input[type="email"],
+.textarea textarea {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #767676;
+  outline: none;
+  width: 100%;
+}
+.email input[type="email"]:focus,
+.textarea textarea:focus {
+  border: 2px solid var(--black);
+}
+
+.send {
+  padding: 8px 16px;
+  background-color: green;
+  color: var(--white);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 4px;
+  align-self: center;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  height: 20px;
+}

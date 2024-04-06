@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.links {
+  padding: 16px;
+}
+.links > a {
+  text-decoration: none;
+  color: var(--black);
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f8f8ff;
+  margin: auto;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+}
