@@ -29,3 +29,27 @@
   margin-top: 16px;
   font-size: 20px;
 }
+
+@media screen and (max-width: 450px) {
+  .home {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .homePart2 {
+    order: 1;
+  }
+  .homePart1 {
+    margin-top: 24px;
+    order: 2;
+  }
+  .profileImageContainer {
+    width: 300px;
+    height: 300px;
+  }
+  .homeHeading {
+    font-size: 32px;
+  }
+  .homePara {
+    font-size: 18px;
+  }
+}

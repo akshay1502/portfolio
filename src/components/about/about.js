@@ -10,7 +10,7 @@ export default function About() {
         </div>
       </div>
       <div className={styles.aboutPart2}>
-        <h1 className={styles.heading}>About</h1>
+        <h1 className={styles.headingDesktop}>About</h1>
         <p className={styles.para}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever

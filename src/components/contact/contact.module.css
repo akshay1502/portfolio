@@ -53,3 +53,16 @@
   font-size: 14px;
   height: 20px;
 }
+
+@media screen and (max-width: 450px) {
+  .contact {
+    padding: 20px;
+  }
+  .contactForm {
+    width: 100%;
+  }
+  .email,
+  .textarea {
+    margin-bottom: 16px;
+  }
+}
