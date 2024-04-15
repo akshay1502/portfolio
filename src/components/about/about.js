@@ -12,15 +12,23 @@ export default function About() {
       <div className={styles.aboutPart2}>
         <h1 className={styles.headingDesktop}>About</h1>
         <p className={styles.para}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum
+          I'm all about making cool stuff happen right in your browser. I like
+          playing with CSS and diving deep into developer tools to see what
+          magic I can create.
+          <br />
+          <br />
+          Like keeping my code clean and tidy—it's like making sure your room
+          feels cozy and welcoming. Catching up with the latest trends and tech?
+          Sure. I love knowing what's hot in the frontend world.
+          <br />
+          <br />
+          When I'm not coding, you'll probably find me cracking up at funny
+          videos, rooting for my CSK team, or chilling with Doraemon, my
+          all-time favorite cartoon pal. And who doesn't love a good laugh with
+          "Phir Hera Pheri," right? I'm always up for learning new stuff and
+          hearing about how things work. And when I need to unwind, there's
+          nothing like finding peace in the simple life of the village. Let's
+          chat and swap stories!
         </p>
       </div>
     </section>

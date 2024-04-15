@@ -9,6 +9,7 @@
 .aboutPart1 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .aboutPart2 {
   display: flex;

@@ -18,6 +18,7 @@
   border-bottom: 4px solid #ffc83d;
 }
 .imgContainer {
+  flex-shrink: 0;
   width: 300px;
   height: 250px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
@@ -48,6 +49,10 @@
   display: flex;
   align-items: center;
   margin: 4px 0 16px 0;
+}
+.description {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 @media screen and (max-width: 450px) {

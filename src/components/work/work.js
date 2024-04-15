@@ -11,7 +11,7 @@ export default function Work() {
       title: "Mai Labs",
       type: "Freelance",
       description:
-        "Whole frontend was hanlded by our team, there was no backend integration",
+        "For our client, Mai Labs, we led frontend development using Next.js, implementing CSS transitions and emphasizing on component reusability. Integrated dynamic job filtering on the career page, facilitating seamless exploration of opportunities. Additionally, added a contact form to enhance user engagement and communication.",
       link: "https://mai.io/",
     },
     {
@@ -20,7 +20,8 @@ export default function Work() {
       alt: "Janak AI",
       title: "Janak AI",
       type: "Freelance",
-      description: "A landing page made in react with little design twicks",
+      description:
+        "'Janakai' is a static single-page website designed to resemble a company website, built entirely in React and hosted on Vercel. The site features sections dedicated to showcasing products, highlighting partners, sharing insights about the company in the 'About Us' section, and providing the latest news through articles. Janakai offers visitors a overview of the company's offerings and expertise.",
       link: "https://janakai.vercel.app/",
     },
     {
@@ -29,7 +30,8 @@ export default function Work() {
       alt: "Remember Word List",
       title: "Remember Word List",
       type: "Personal",
-      description: "A landing page made in react with little design twicks",
+      description:
+        "'Remember Word List' is an engaging memory challenge game where users select a category and difficulty level to test their recall skills. Upon selection, users are presented with a set of words for a limited time. Once the time elapses, users must enter the words they remember. Success is achieved by accurately typing all words within the time limit.",
       link: "https://rememberwordlist.netlify.app/",
     },
     {
@@ -38,7 +40,8 @@ export default function Work() {
       alt: "Youtube Clone",
       title: "Youtube Clone",
       type: "Personal",
-      description: "A landing page made in react with little design twicks",
+      description:
+        "Enjoy the YouTube experience on your desktop with our clone app. Leveraging YouTube's free APIs, the app dynamically populates a feed with 12 random videos. Upon clicking a video, user can see the video description and the 20 latest comments. Additionally, the integrated search API enabling users to discover specific content by querying keywords.",
       link: "https://youtube-clone-developerapi.netlify.app/",
     },
   ]
@@ -77,7 +80,7 @@ const WorkCard = ({ img, alt, title, type, description, link }) => {
           <IconLink />
           {link}
         </a>
-        <p>{description}</p>
+        <p className={styles.description}>{description}</p>
       </div>
     </div>
   )

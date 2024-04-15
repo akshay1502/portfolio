@@ -73,7 +73,8 @@ export default function Contact() {
           data-netlify="true"
         >
           <small style={{ marginBottom: "12px" }}>
-            Your email is not saved anywhere
+            Your email is safe with me and will only be used for communication
+            purposes.
           </small>
           <div className={styles.email}>
             <label htmlFor="email">
