@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className={styles.about}>
       <div className={styles.aboutPart1}>
         <div className={styles.aboutImageContainer}>
-          <img src={"/dummy.jpg"} alt="About" />
+          <img src={"/img2.jpg"} alt="About" />
         </div>
       </div>
       <div className={styles.aboutPart2}>

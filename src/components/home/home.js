@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className={styles.homePart2}>
         <div className={styles.profileImageContainer}>
-          <img src={"/dummy.jpg"} alt="Profile" />
+          <img src={"/img1.jpg"} alt="Profile" />
         </div>
       </div>
     </section>
