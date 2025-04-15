@@ -17,6 +17,11 @@ export default function Navbar() {
         <li className={styles.links}>
           <a href="#contact">Contact</a>
         </li>
+        <li className={styles.links}>
+          <a href="/AkshayShinde.pdf" download="AkshayShindeResume.pdf">
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   )
